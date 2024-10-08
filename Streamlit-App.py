@@ -197,17 +197,17 @@ if page == pages[3] :
         # Afficher première image 
         photo_url1: "Distribution des salaires par régions.png"
         # Afficher la deuxième image
-        image_path = "Entreprises par région.png"  
+        photo_url2 = "Entreprises par région.png"  
         # Afficher la troisième image 
-        image_path = "Images/Ecart-type des salaires par région.png"  
+        photo_url3 = "Ecart-type des salaires par région.png"  
         # Afficher la quatrième image 
-        image_path = "Images/Evolution des salaires en fonction de l'âge.png"  
+        photo_url4 = "Evolution des salaires en fonction de l'âge.png"  
         # Afficher la cinquième image 
-        image_path = "Images/Carte du prix moyen de l'immobilier par département.png"  
-        # Afficher la cinquième image 
-        image_path = "Images/Carte du salaire net moyen par département.png"  
+        photo_url5 = "Carte du prix moyen de l'immobilier par département.png"  
         # Afficher la sixième image 
-        image_path = "Images/Analyse des inégalités de genre.png"      
+        photo_url6 = "Carte du salaire net moyen par département.png"  
+        # Afficher la septième image 
+        photo_url7 = "Analyse des inégalités de genre.png"      
         
     if option == 'La matrice de corrélation':
        # Afficher l'image 

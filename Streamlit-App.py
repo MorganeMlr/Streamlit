@@ -194,22 +194,22 @@ if page == pages[3] :
     
     if option == 'La visualisation des données': 
         # Afficher première image 
-        image_path = "/Users/morganemuller/Desktop/DATA/Streamlit/Images/Distribution des salaires par régions.png"  
+        image_path = "/Images/Distribution des salaires par régions.png"  
         st.image(image_path, caption='Distribution des salaires par région', use_column_width=True)
         # Afficher la deuxième image
-        image_path = "/Users/morganemuller/Desktop/DATA/Streamlit/Images/Entreprises par région.png"  
+        image_path = "/Images/Entreprises par région.png"  
         st.image(image_path, caption='Entreprises par région', use_column_width=True)
         # Afficher la troisième image 
-        image_path = "/Users/morganemuller/Desktop/DATA/Streamlit/Images/Ecart-type des salaires par région.png"  
+        image_path = "/Images/Ecart-type des salaires par région.png"  
         st.image(image_path, caption='Ecart-type des salaires par région', use_column_width=True)
         # Afficher la quatrième image 
-        image_path = "/Users/morganemuller/Desktop/DATA/Streamlit/Images/Evolution des salaires en fonction de l'âge.png"  
+        image_path = "/Images/Evolution des salaires en fonction de l'âge.png"  
         st.image(image_path, caption='Evolution des salaires en fonction de l âge', use_column_width=True)
         # Afficher la cinquième image 
-        image_path = "/Users/morganemuller/Desktop/DATA/Streamlit/Images/Carte du prix moyen de l'immobilier par département.png"  
+        image_path = "/Images/Carte du prix moyen de l'immobilier par département.png"  
         st.image(image_path, caption='Carte du prix moyen de l immobilier par département', use_column_width=True)
         # Afficher la cinquième image 
-        image_path = "/Users/morganemuller/Desktop/DATA/Streamlit/Images/Carte du salaire net moyen par département.png"  
+        image_path = "/Images/Carte du salaire net moyen par département.png"  
         st.image(image_path, caption='Carte du salaire net moyen par département', use_column_width=True)
         # Afficher la sixième image 
         image_path = "Images/Analyse des inégalités de genre.png"  

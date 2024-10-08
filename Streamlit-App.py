@@ -39,6 +39,7 @@ from sklearn.cluster import AgglomerativeClustering
 from sklearn.metrics import silhouette_score
 from sklearn.metrics.pairwise import euclidean_distances, manhattan_distances
 from sklearn.metrics import silhouette_samples, silhouette_score
+from PIL import Image
 
 # Import the data
 df=pd.read_csv("df.csv")

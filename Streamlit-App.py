@@ -193,11 +193,22 @@ if page == pages[3] :
     option = st.selectbox("Choix", choix)
     st.write('Le test statistique choisi est :', option)
     
-    if option == 'La visualisation des données': 
-        image_path = "Images/Distribution des salaires par régions.png"  
+    if option == 'La visualisation des données':
+        # Afficher la première image
+        image_path = "Images/Distribution des salaires par régions.png"
+        image = Image.open(image_path)  # Ouvrir l'image
+        st.image(image, caption='Distribution des salaires par région', use_column_width=True)
+        # Afficher la deuxième image
+        image_path = "Images/Entreprises par région.png"
+        image = Image.open(image_path)  # Ouvrir l'image
+        st.image(image, caption='Entreprises par région', use_column_width=True)
+        
+
+
+image_path = "Images/Distribution des salaires par régions.png"  
         st.image(image_path, caption='Distribution des salaires par région', use_column_width=True)
         # Afficher la deuxième image
-        image_path = "/Users/morganemuller/Desktop/DATA/Streamlit/Images/Entreprises par région.png"  
+        image_path = "Images/Entreprises par région.png"  
         st.image(image_path, caption='Entreprises par région', use_column_width=True)
         # Afficher la troisième image 
         image_path = "/Users/morganemuller/Desktop/DATA/Streamlit/Images/Ecart-type des salaires par région.png"  

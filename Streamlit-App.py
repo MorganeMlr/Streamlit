@@ -196,11 +196,8 @@ if page == pages[3] :
     if option == 'La visualisation des données': 
         # Afficher première image 
         photo_url1: "Distribution des salaires par régions.png"
-        # Charger et afficher l'image
-        image = Image.open(image_path)
-        st.image(image, caption="Distribution des salaires par régions", use_column_width=True)
         # Afficher la deuxième image
-        image_path = "Images/Entreprises par région.png"  
+        image_path = "Entreprises par région.png"  
         # Afficher la troisième image 
         image_path = "Images/Ecart-type des salaires par région.png"  
         # Afficher la quatrième image 

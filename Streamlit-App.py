@@ -202,29 +202,10 @@ if page == pages[3] :
                   image_path = "Images/Entreprises par région.png"
                   image = Image.open(image_path)  # Ouvrir l'image
                   st.image(image, caption='Entreprises par région', use_column_width=True)
-        
-
-
-image_path = "Images/Distribution des salaires par régions.png"  
-        st.image(image_path, caption='Distribution des salaires par région', use_column_width=True)
-        # Afficher la deuxième image
-        image_path = "Images/Entreprises par région.png"  
-        st.image(image_path, caption='Entreprises par région', use_column_width=True)
         # Afficher la troisième image 
-        image_path = "/Users/morganemuller/Desktop/DATA/Streamlit/Images/Ecart-type des salaires par région.png"  
-        st.image(image_path, caption='Ecart-type des salaires par région', use_column_width=True)
-        # Afficher la quatrième image 
-        image_path = "/Users/morganemuller/Desktop/DATA/Streamlit/Images/Evolution des salaires en fonction de l'âge.png"  
-        st.image(image_path, caption='Evolution des salaires en fonction de l âge', use_column_width=True)
-        # Afficher la cinquième image 
-        image_path = "/Users/morganemuller/Desktop/DATA/Streamlit/Images/Carte du prix moyen de l'immobilier par département.png"  
-        st.image(image_path, caption='Carte du prix moyen de l immobilier par département', use_column_width=True)
-        # Afficher la cinquième image 
-        image_path = "/Users/morganemuller/Desktop/DATA/Streamlit/Images/Carte du salaire net moyen par département.png"  
-        st.image(image_path, caption='Carte du salaire net moyen par département', use_column_width=True)
-        # Afficher la sixième image 
-        image_path = "Images/Analyse des inégalités de genre.png"  
-        st.image(image_path, caption='Analyse des inégalités de genre ; comparaison des salaires moyens selon le genre et la catégorie d’emploi et selon le genre et la catégorie d’âge', use_column_width=True)
+                  image_path = "Images/Ecart-type des salaires par région.png" 
+                  image = Image.open(image_path)
+                  st.image(image_path, caption='Ecart-type des salaires par région', use_column_width=True)
     
     if option == 'La matrice de corrélation':
        # Afficher l'image 

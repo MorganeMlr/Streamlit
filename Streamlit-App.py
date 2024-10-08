@@ -196,12 +196,12 @@ if page == pages[3] :
     if option == 'La visualisation des données':
        # Afficher la première image
                   image_path = "Images/Distribution des salaires par régions.png"
-      image = Image.open(image_path)  # Ouvrir l'image
-      st.image(image, caption='Distribution des salaires par région', use_column_width=True)
+                  image = Image.open(image_path)  # Ouvrir l'image
+                  st.image(image, caption='Distribution des salaires par région', use_column_width=True)
        # Afficher la deuxième image
-      image_path = "Images/Entreprises par région.png"
-      image = Image.open(image_path)  # Ouvrir l'image
-       st.image(image, caption='Entreprises par région', use_column_width=True)
+                  image_path = "Images/Entreprises par région.png"
+                  image = Image.open(image_path)  # Ouvrir l'image
+                  st.image(image, caption='Entreprises par région', use_column_width=True)
         
 
 

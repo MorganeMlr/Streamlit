@@ -195,8 +195,8 @@ if page == pages[3] :
     
     if option == 'La visualisation des données':
        # Afficher la première image
-                  image_path = "Distribution des salaires par régions.png"
-                  st.image(image_path, caption='Distribution des salaires par région', use_column_width=True)
+       image_path = "Distribution des salaires par régions.png"
+       st.image(image_path, caption='Distribution des salaires par région', use_column_width=True)
     
     if option == 'La matrice de corrélation':
        # Afficher l'image 

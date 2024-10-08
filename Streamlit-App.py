@@ -85,7 +85,7 @@ st.sidebar.markdown("---")
 if page == pages[0]: 
     st.markdown("<h3 style='color: #5930F2;'>Le contexte</h3>", unsafe_allow_html=True)
     st.markdown("Notre projet d’analyse de données porte sur l’étude des inégalités de salaire en France, un sujet vaste et sur lequel de nombreux organismes et chercheurs travaillent déjà actuellement.")
-    st.markdown('<u>Plusieurs axes d’études nous ont été proposés :</u>', unsafe_allow_html=True)
+    st.markdown("<u>Plusieurs axes d’études nous ont été proposés :</u>", unsafe_allow_html=True)
     st.write("**Inégalités entre les entreprises en fonction de leur localisation et / ou de leur taille ;**")
     st.write("**Inégalités au sein de la population en fonction du salaire et de la localisation ;**")
     st.write("**Inégalités au sein d’une grande ville française en particulier.**")
@@ -197,23 +197,16 @@ if page == pages[3] :
         image_path = "Images/Distribution des salaires par régions.png"  
         # Afficher la deuxième image
         image_path = "Images/Entreprises par région.png"  
-        st.image(image_path, caption='Entreprises par région', use_column_width=True)
         # Afficher la troisième image 
         image_path = "Images/Ecart-type des salaires par région.png"  
-        st.image(image_path, caption='Ecart-type des salaires par région', use_column_width=True)
         # Afficher la quatrième image 
         image_path = "Images/Evolution des salaires en fonction de l'âge.png"  
-        st.image(image_path, caption='Evolution des salaires en fonction de l âge', use_column_width=True)
         # Afficher la cinquième image 
         image_path = "Images/Carte du prix moyen de l'immobilier par département.png"  
-        st.image(image_path, caption='Carte du prix moyen de l immobilier par département', use_column_width=True)
         # Afficher la cinquième image 
         image_path = "Images/Carte du salaire net moyen par département.png"  
-        st.image(image_path, caption='Carte du salaire net moyen par département', use_column_width=True)
         # Afficher la sixième image 
-        image_path = "Images/Analyse des inégalités de genre.png"  
-        st.image(image_path, caption='Analyse des inégalités de genre ; comparaison des salaires moyens selon le genre et la catégorie d’emploi et selon le genre et la catégorie d’âge', use_column_width=True)
-        
+        image_path = "Images/Analyse des inégalités de genre.png"      
         
     if option == 'La matrice de corrélation':
        # Afficher l'image 

@@ -196,16 +196,7 @@ if page == pages[3] :
     if option == 'La visualisation des données':
        # Afficher la première image
                   image_path = "Images/Distribution des salaires par régions.png"
-                  image = Image.open(image_path)  # Ouvrir l'image
-                  st.image(image, caption='Distribution des salaires par région', use_column_width=True)
-       # Afficher la deuxième image
-                  image_path = "Images/Entreprises par région.png"
-                  image = Image.open(image_path)  # Ouvrir l'image
-                  st.image(image, caption='Entreprises par région', use_column_width=True)
-        # Afficher la troisième image 
-                  image_path = "Images/Ecart-type des salaires par région.png" 
-                  image = Image.open(image_path)
-                  st.image(image_path, caption='Ecart-type des salaires par région', use_column_width=True)
+                  st.image(image, caption='Distribution des salaires par région', use_column_width=True
     
     if option == 'La matrice de corrélation':
        # Afficher l'image 

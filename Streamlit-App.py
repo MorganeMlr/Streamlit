@@ -218,7 +218,7 @@ if page == pages[3] :
     
     if option == 'La matrice de corrélation':
        # Afficher l'image 
-       image_path = "Images/Matrice de corrélation.png"  
+       image_path = "Images/Matrice_de_correlation.png"  
        st.image(image_path, caption='La matrice de corrélation', use_column_width=True)
        st.write("La matrice de corrélation, nous permet d’identifier des variables qui sont potentiellement corrélées (plus ou moins fortement) et d’opérer le cas échéant une sélection parmi ces dernières pour le clustering. Ici, l’interprétation de la matrice de corrélation suggère que :")
        st.write("**- Relation entre le niveau de salaire et le prix de l’immobilier.** Le niveau des salaires est un indicateur clé pour expliquer la variation du prix de l'immobilier. En effet, il apparaît que le prix moyen au mètre carré est fortement lié aux différentes catégories de salaires horaires, notamment ceux des femmes et des hommes âgés de 26 à 50 ans. En revanche, le niveau de diplôme apparaît moins significativement corrélé au prix au mètre carré qu'au niveau de salaire. Il existerait par ailleurs **une disparité de genre dans l'impact des salaires sur le prix moyen au m².** En effet, les corrélations entre le salaire horaire moyen des femmes avec le prix au m² sont légèrement plus élevées que celles des hommes dans les mêmes tranches d'âge. Cela pourrait indiquer que l'augmentation des salaires féminins dans une région est particulièrement associée à la hausse du prix de l’immobilier. Cela peut être le signe d'une participation croissante des femmes au marché du travail ou leur insertion à des postes mieux rémunérés.")

@@ -196,13 +196,13 @@ if page == pages[3] :
     if option == 'La visualisation des données': 
         # Afficher première image 
         image_path = "Images/Distribution_des_salaires_par_regions.png"  
-        st.image(image_path, caption='Distribution des salaires par régions', use_column_width=True)
+        st.image(image_path, caption='Distribution des salaires par région', use_column_width=True)
         # Afficher la deuxième image
         image_path = "Images/Entreprises_par_region.png"  
-        st.image(image_path, caption='Entreprises par régions', use_column_width=True)
+        st.image(image_path, caption='Entreprises par région', use_column_width=True)
         # Afficher la troisième image 
         image_path = "Images/Ecart-type_des_salaires_par_region.png"  
-        st.image(image_path, caption='Ecart-type des salaires par régions', use_column_width=True)
+        st.image(image_path, caption='Ecart-type des salaires par région', use_column_width=True)
         # Afficher la quatrième image 
         image_path = "Images/Evolution_des_salaires.png"  
         st.image(image_path, caption='Evolution des salaires en fonction de l âge', use_column_width=True)

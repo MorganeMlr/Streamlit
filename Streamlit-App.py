@@ -396,7 +396,7 @@ if page == pages[4] :
       # Affichage des coordonnées des centroïdes des clusters
       # Afficher l'image 
       image_path = "Images/Coordonnees_centroides_sans_ACP_DEP.png" 
-      st.image(image_path, caption="Coordonnées centroides sans ACP paar départements", use_column_width=True)
+      st.image(image_path, caption="Coordonnées centroides sans ACP par départements", use_column_width=True)
       image_path = "Images/Centroides_sans_ACP_DEP.png" 
       st.image(image_path, caption="Clusters avec centroides sans ACP par départements", use_column_width=True)
       # Evaluation de la qualité du clustering

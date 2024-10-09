@@ -402,12 +402,12 @@ if page == pages[4] :
       # Evaluation de la qualité du clustering
       st.write("**Silhouette Score : 0.5398242144044401**")
       st.write("**Taille du cluster 1 : 73**")
-      st.write("**aTille du cluster 2 : 18**")
+      st.write("**Taille du cluster 2 : 18**")
       st.write("**Taille du cluster 3 : 3**")
       # Afficher l'image 
       image_path = "Images/Silhouette_score_sans_ACP_DEP.png" 
       st.image(image_path, caption="Silhouette score sans ACP par départements", use_column_width=True)
-      st.write("Nous obtenons un Silhouette score correct (environ 0,54), ce qui montre que les clusters sont plutôt bien définis, avec une importante variabilité dans la taille de ces derniers en termes de nombre de département qu'ils contiennent.")
+      st.write("**Nous obtenons un Silhouette score correct (environ 0,54), ce qui montre que les clusters sont plutôt bien définis, avec une importante variabilité dans la taille de ces derniers en termes de nombre de département qu'ils contiennent.**")
    
    if option == 'Jeu de données groupé par département avec ACP' :
       st.write("**Analyse par composantes principales**")
@@ -432,12 +432,10 @@ if page == pages[4] :
       st.write("**Silhouette score = 0.5097185102337607**")
       image_path ="Images/KMeans_3_clusters_centroides_ACP_DEP.png"
       st.image(image_path, caption="KMeans avec 3 clusters et centroides", use_column_width=True)
-      st.write("**Analyse des composantes principales :**")
-      st.write("**PC1 explique environ 75,5% de la variance totale, tandis PC2 explique environ 10,9% de la variance.**")
-      st.write("**PC1 : est influencée majoritairement par les variables suivantes : Salaire_net_moyen_heure_26_50, Salaire_net_moyen_heure_26_50_homme, Salaire_net_moyen, Salaire_net_moyen_heure_26_50_femme, Salaire_net_moyen_homme.**")
+      st.write("<u><b>Analyse des composantes principales :</b></u>", unsafe_allow_html=True)
+      st.write("**PC1 explique environ 75,5% de la variance totale, tandis PC2 explique environ 10,9% de la variance. Cette composante est influencée majoritairement par les variables suivantes : Salaire_net_moyen_heure_26_50, Salaire_net_moyen_heure_26_50_homme, Salaire_net_moyen, Salaire_net_moyen_heure_26_50_femme, Salaire_net_moyen_homme.**")
       st.write("**C'est à dire qu'elle est surtout influencée par le niveau de salaire.**")
-      st.write("**PC2 : est majoritairement influencée par les variables suivantes : CAP_BEP, BEPC_brevet_DNB, Gare, No_diplome, Bac_Brevet_pro.**")
-      st.write("**C'est à dire qu'elle est surtout influencée par le niveau de diplôme.**")
+      st.write("**PC2 : est majoritairement influencée par les variables suivantes : CAP_BEP, BEPC_brevet_DNB, Gare, No_diplome, Bac_Brevet_pro.C'est à dire qu'elle est surtout influencée par le niveau de diplôme.**")
       
 ## Interprétation Page ##
 if page == pages[5] : 
@@ -480,7 +478,6 @@ if page == pages[5] :
 if page == pages[6] : 
     st.markdown("<h3 style='color: ##5930F2;'>La conclusion</h3>", unsafe_allow_html=True)
     
-    st.markdown("<h3 style='color: #993399;'>Bilan</h3>", unsafe_allow_html=True)
     st.write("**En conclusion, pour répondre à la problématique et évaluer les objectifs que nous nous étions fixés au début du projet, nous pouvons conclure sur les points suivants :**")
     st.write("- La géographie influence les inégalités de salaire dans la mesure où il est possible de regrouper les départements métropolitains et les villes dans trois groupes bien définis répartis inégalement sur le territoire.")
     st.write("- Les facteurs qui influencent principalement ce regroupement sont la dimension urbaine ou rurale de ces zones, qui elle-même influence le dynamisme économique et donc la richesse de ces localités. On remarque notamment la position très spécifique de Paris et de sa proche banlieue par rapport au reste de la France.")

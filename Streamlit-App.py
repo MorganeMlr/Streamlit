@@ -197,6 +197,24 @@ if page == pages[3] :
         # Afficher première image 
         image_path = "Images/Distribution_des_salaires_par_regions.png"  
         st.image(image_path, caption='Distribution des salaires par régions', use_column_width=True)
+        # Afficher la deuxième image
+        image_path = "Images/Entreprises_par_region.png"  
+        st.image(image_path, caption='Entreprises par régions', use_column_width=True)
+        # Afficher la troisième image 
+        image_path = "Images/Ecart-type_des_salaires_par_region.png"  
+        st.image(image_path, caption='Ecart-type des salaires par régions', use_column_width=True)
+        # Afficher la quatrième image 
+        image_path = "Images/Evolution_des_salaires.png"  
+        st.image(image_path, caption='Evolution des salaires en fonction de l âge', use_column_width=True)
+        # Afficher la cinquième image 
+        image_path = "Images/Carte_du_prix_moyen_immobilier_par_departement.png"  
+        st.image(image_path, caption='Carte du prix moyen de l immobilier par départements', use_column_width=True)
+        # Afficher la sixième image 
+        image_path = "Images/Carte-_du_salaire_net_moyen_par_département.png"  
+        st.image(image_path, caption='Carte du salaire net moyen par départements', use_column_width=True)
+        # Afficher la septième image 
+        image_path = "Images/Analyse_des_inégalités_de_genre.png"  
+        st.image(image_path, caption='Analyse des inégalités de genre ; comparaison des salaires moyens selon le genre et la catégorie d’emploi et selon le genre et la catégorie d’âge', use_column_width=True)
     
     if option == 'La matrice de corrélation':
        # Afficher l'image 

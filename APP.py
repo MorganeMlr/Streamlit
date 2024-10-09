@@ -481,7 +481,6 @@ if page == pages[5] :
 if page == pages[6] : 
     st.markdown("<h3 style='color: ##5930F2;'>La conclusion</h3>", unsafe_allow_html=True)
     
-    st.markdown("<h3 style='color: #993399;'>Bilan</h3>", unsafe_allow_html=True)
     st.write("**En conclusion, pour répondre à la problématique et évaluer les objectifs que nous nous étions fixés au début du projet, nous pouvons conclure sur les points suivants :**")
     st.write("- **La géographie** influence les inégalités de salaire dans la mesure où il est possible de regrouper les départements métropolitains et les villes dans trois groupes bien définis répartis inégalement sur le territoire.")
     st.write("- Les facteurs qui influencent principalement ce regroupement sont **la dimension urbaine ou rurale de ces zones**, qui elle-même influence **le dynamisme économique** et donc la richesse de ces localités. On remarque notamment la position très spécifique de Paris et de sa proche banlieue par rapport au reste de la France.")

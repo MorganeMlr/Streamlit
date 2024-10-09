@@ -440,8 +440,12 @@ if page == pages[4] :
 ## Interprétation Page ##
 if page == pages[5] : 
       st.markdown("<h3 style='color: #5930F2;'>L'interprétation</h3>", unsafe_allow_html=True)
-      st.write("Afin de faciliter la lecture des résultats, c’est à dire les spécificités des clusters obtenus, nous avons décidé d’utiliser deux outils : un tableau statistique avec certaines informations clés sur les clusters en question et un nuage de mots représentant les villes ou départements constituant le cluster, dont la taille varie selon le nombre d’habitants de ces entités géographiques.")
-   
+
+      st.write("Voici une carte de la France représentant les 3 clusters" $
+      image_path ="Images/Carte_3_clusters.png"
+      st.image(image_path, caption="Carte de France avec les résultats des 3 clusters", use_column_width=True)      
+      
+      st.write("Afin de faciliter la lecture des résultats, c’est à dire les spécificités des clusters obtenus, nous avons décidé d’utiliser un nuage de mots représentant les villes ou départements constituant le cluster, dont la taille varie selon le nombre d’habitants de ces entités géographiques.")
       st.write("Que ce soit avec ou sans ACP, les clusters sont similaires : on trouve Paris à part les tandis que les grandes métropoles et les zones plus rurales ou intermédiaires sont regroupées dans les autres clusters.")
       
       choix = [

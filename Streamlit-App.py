@@ -336,17 +336,17 @@ if page == pages[4] :
       # Méthode du coude
       st.write("**Méthode du coude**")
       # Afficher l'image 
-      image_path = "Images/Methode_du_coude_après_ACP.png"  
+      image_path = "Images/Methode_du_coude_apres_ACP.png"  
       st.image(image_path, caption="Méthode du coude après ACP", use_column_width=True)
       st.write("D'après la méthode du coude, le nombre optimal de clusters semble être **3**.")
       # Méthode du dendrogramme 
       st.write("**Méthode du dendrogramme**")
       # Afficher l'image 
-      image_path = "Images/Methode_du_dendrogramme_après_ACP.png"  
+      image_path = "Images/Methode_du_dendrogramme_apres_ACP.png"  
       st.image(image_path, caption="Méthode du dendrogramme après ACP", use_column_width=True)
       st.write("D'après la méthode du dendrogramme, le nombre optimal de clusters semble être **3**.")
       # Evaluation de la qualité du clustering
-      image_path ="Images/KMeans_3_clusters_après_ACP.png"
+      image_path ="Images/KMeans_3_clusters_apres_ACP.png"
       st.image(image_path, caption="KMeans 3 clusters après ACP", use_column_width=True)
       st.write("**Silhouette score = 0.5365082268991479**")
       image_path ="Images/KMeans_3_clusters_centroides.png"

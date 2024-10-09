@@ -192,6 +192,11 @@ if page == pages[3] :
     choix = ['La visualisation des données', 'La matrice de corrélation', 'Le test ANOVA (analyse de variance)', 'La régression linéaire']  # Ajoutez d'autres options si nécessaire
     option = st.selectbox("Choix", choix)
     st.write('Le test statistique choisi est :', option)
+
+    if option == 'La visualisation des données': 
+        # Afficher première image 
+        image_path = "Images/Distribution_des_salaires_par_regions.png"  
+        st.image(image_path, caption='Distribution des salaires par régions', use_column_width=True)
     
     if option == 'La matrice de corrélation':
        # Afficher l'image 

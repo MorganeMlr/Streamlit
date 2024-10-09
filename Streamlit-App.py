@@ -210,10 +210,10 @@ if page == pages[3] :
         image_path = "Images/Carte_du_prix_moyen_immobilier_par_departement.png"  
         st.image(image_path, caption='Carte du prix moyen de l immobilier par départements', use_column_width=True)
         # Afficher la sixième image 
-        image_path = "Images/Carte-_du_salaire_net_moyen_par_département.png"  
+        image_path = "Images/Carte-_du_salaire_net_moyen_par_departement.png"  
         st.image(image_path, caption='Carte du salaire net moyen par départements', use_column_width=True)
         # Afficher la septième image 
-        image_path = "Images/Analyse_des_inégalités_de_genre.png"  
+        image_path = "Images/Analyse_des_inegalites_de_genre.png"  
         st.image(image_path, caption='Analyse des inégalités de genre ; comparaison des salaires moyens selon le genre et la catégorie d’emploi et selon le genre et la catégorie d’âge', use_column_width=True)
     
     if option == 'La matrice de corrélation':

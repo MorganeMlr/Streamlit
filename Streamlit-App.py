@@ -193,11 +193,6 @@ if page == pages[3] :
     option = st.selectbox("Choix", choix)
     st.write('Le test statistique choisi est :', option)
     
-    if option == 'La visualisation des données':
-       # Afficher la première image
-       image_path = "Images/Distribution des salaires par régions.png"
-       st.image(image_path, caption='Distribution des salaires par région', use_column_width=True)
-    
     if option == 'La matrice de corrélation':
        # Afficher l'image 
        image_path = "Images/Matrice de corrélation.png"  

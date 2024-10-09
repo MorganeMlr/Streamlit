@@ -452,11 +452,11 @@ if page == pages[5] :
       
       if option == 'Jeu de données original' : 
           st.markdown("<h3 style='color: #5930F2;'>Jeu de données original</h3>", unsafe_allow_html=True)
-          image_path ="Images/clusters jeu de données original sans ACP .png"
+          image_path ="Images/Clusters_jeu_de_donnees_original_sans_ACP.png"
           st.image(image_path, caption="Nuage de mots pour les clusters obtenus à partir du jeu de données original sans ACP", use_column_width=True)
-          image_path ="Images/clusters jeu de données original avec ACP.png"
+          image_path ="Images/Clusters_jeu_de_donnees_original_avec_ACP.png"
           st.image(image_path, caption="Nuage de mots pour les clusters obtenus à partir du jeu de données original avec ACP", use_column_width=True)
-          st.write("Que ce soit avec ou sans ACP, les clusters sont similaires : on trouve Paris à part les tandis que les grandes métropoles et les zones plus rurales ou intermédiaires sont regroupées dans les autres clusters.")
+          st.write("**Que ce soit avec ou sans ACP, les clusters sont similaires : on trouve Paris à part les tandis que les grandes métropoles et les zones plus rurales ou intermédiaires sont regroupées dans les autres clusters.**")
           st.markdown('<u>Voici une interprétation de la formation des clusters à partir du jeu de données original :</u>', unsafe_allow_html=True)
           st.write("**Cluster 0 (Cluster 2 après ACP) : Grandes villes de région parisienne et villes rurales de province** (Exemples : Ambronay, Champigny-sur-Marne, Maisons-Alfort, Clichy, Puteaux, Sartrouville, Arbent, Attignat, Bâgé-le-Châtel, Beynost, Cessy, Chalamont, Châtillon-en-Michaille, Châtillon-sur-Chalaronne, Chevry, Civrieux, Confrançon, Culoz, Divonne-les-Bains, Farges, Feillens, Colombes, Francheleins, Montreuil, Massy, etc.) Ce cluster regroupe des villes avec une population en moyenne plus faible (8700 habitants). Elles apparaissent majoritairement situées en région parisienne pour les plus grandes et dans des régions rurales et moins urbanisées pour les plus petites. Les salaires y sont moyens par rapport au niveau national, tout comme le prix moyen du mètre carré. Les villes de ce cluster présentent en moyenne des niveaux de diplômes légèrement plus faibles que dans les deux autres.")
           st.write("**Cluster 1 (Cluster 0 après ACP) : Grandes et moyennes villes de province**(Exemples : Marseille, Nice, Rennes, Ambérieu-en-Bugey, Bourg-en-Bresse, Oyonnax, Bellegarde-sur-Valserine, Lons-le-Saunier, Montmorot, Saint-Claude, Gex, Thonon-les-Bains, Annemasse, Ville-la-Grand, Ferney-Voltaire, Saint-Genis-Pouilly, Sallanches, Cluses, Bonneville, La Roche-sur-Foron, Tours, Tourcoing, Béziers, etc.). Ce cluster est celui qui réunit le plus grand nombre de villes. Il s’agit, de façon générale, de villes de province. La population moyenne des villes de ce cluster est modérée (environ 10 000 habitants), tirée par le haut par les grandes métropoles. Les habitants de ces villes présentent en moyenne un niveau d'éducation modéré (CAP/BEP, Bac, Bac+2). Les salaires y sont en moyenne plus bas qu’ailleurs, tout comme le prix moyen du mètre carré.")  
@@ -464,9 +464,9 @@ if page == pages[5] :
       
       if option == 'Jeu de données groupé par départements' : 
           st.markdown("<h3 style='color: #5930F2;'>Jeu de données groupé par départements</h3>", unsafe_allow_html=True)
-          image_path ="Images/clusters jeu de données groupé par département sans ACP .png"
+          image_path ="Images/Clusters_jeu_de_donnees_departement_sans_ACP.png"
           st.image(image_path, caption="Nuage de mots pour les clusters obtenus à partir du jeu de données groupé par département sans ACP", use_column_width=True)
-          image_path ="Images/clusters jeu de données groupé par département avec ACP .png"
+          image_path ="Images/Clusters_jeu_de_donnees_departement_avec_ACP.png"
           st.image(image_path, caption="Nuage de mots pour les clusters obtenus à partir du jeu de données original avec ACP", use_column_width=True)
           st.write("On constate que les résultats du clustering avec et sans ACP sont identiques dans le cas du jeu de données groupé par départements, ce qui signifie que la réduction de dimension n’a pas eu d’impact significatif sur la formation des clusters.")
           st.markdown('<u>Voici une interprétation de la formation des clusters à partir du jeu de données groupé par département :"</u>', unsafe_allow_html=True)

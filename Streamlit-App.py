@@ -302,55 +302,55 @@ if page == pages[4] :
       # Méthode du coude
       st.write("**Méthode du coude**")
       # Afficher l'image 
-      image_path = "Images/Méthode du coude avant ACP.png" 
+      image_path = "Images/Methode_du_coude_avant_ACP.png" 
       st.image(image_path, caption="Méthode du coude avant ACP", use_column_width=True)
       st.write("D'après la méthode du coude, le nombre optimal de clusters semble être **3**.")
       # Méthode du dendrogramme 
       st.write("**Méthode du dendrogramme**")
       # Afficher l'image 
-      image_path = "Images/ Méthode du dendrogramme avant ACP.png"  
+      image_path = "Images/Methode_du_dendrogramme_avant_ACP.png"  
       st.image(image_path, caption="Méthode du dendrogramme avant ACP", use_column_width=True)
       st.write("D'après la méthode du dendrogramme, le nombre optimal de clusters semble être **3**.")
       # Algorithme des K-Means 
       # Affichage des coordonnées des centroïdes des clusters
       # Afficher l'image 
-      image_path = "Images/Coordonnées centroides sans ACP.png" 
+      image_path = "Images/Coordonnees_centroides_sans_ACP.png" 
       st.image(image_path, caption="Coordonnées centroides sans ACP", use_column_width=True)
-      image_path = "Images/Clusters avec centroides.png"  
-      st.image(image_path, caption="clusters avec centroides", use_column_width=True)
+      image_path = "Images/Clusters_avec_centroides.png"  
+      st.image(image_path, caption="Clusters avec centroides", use_column_width=True)
       # Evaluation de la qualité du clustering
       st.write("**Silhouette Score : 0.49770381682419584**")
       st.write("**Taille du cluster 1 : 800**")
       st.write("**Taille du cluster 2 : 3861**")
       st.write("**Taille du cluster 3 : 1**")
       # Afficher l'image 
-      image_path = "Images/Silhouette score avant ACP.png" 
+      image_path = "Images/Silhouette_score_avant_ACP.png" 
       st.image(image_path, caption="Silhouette score avant ACP", use_column_width=True)
       st.write("Nous obtenons un Silhouette score moyen (environ 0,5). Le Silhouette Plot nous montre que les clusters 1 et 2 sont plutôt bien définis, mais que la présence d'une ville unique dans le cluster 3 (Paris) tire vers le bas la valeur du Silhouette Score.")
 
    if option == 'Jeu de données original avec ACP':
       st.write("**Analyse par composantes principales**")
       # Afficher l'image 
-      image_path = "Images/Variance expliquée par composantes principales.png" 
+      image_path = "Images/Variance_expliquee_par_composantes_principales.png" 
       st.image(image_path, caption='Variance expliquée par composantes principales', use_column_width=True)
       # Méthode du coude
       st.write("**Méthode du coude**")
       # Afficher l'image 
-      image_path = "Images/Méthode du coude après ACP.png"  
+      image_path = "Images/Methode_du_coude_après_ACP.png"  
       st.image(image_path, caption="Méthode du coude après ACP", use_column_width=True)
       st.write("D'après la méthode du coude, le nombre optimal de clusters semble être **3**.")
       # Méthode du dendrogramme 
       st.write("**Méthode du dendrogramme**")
       # Afficher l'image 
-      image_path = "Images/Méthode du dendrogramme après ACP.png"  
+      image_path = "Images/Methode_du_dendrogramme_après_ACP.png"  
       st.image(image_path, caption="Méthode du dendrogramme après ACP", use_column_width=True)
       st.write("D'après la méthode du dendrogramme, le nombre optimal de clusters semble être **3**.")
       # Evaluation de la qualité du clustering
-      image_path ="Images/KMeans 3 clusters après ACP.png"
-      st.image(image_path, caption="KMens 3 clusters après ACP", use_column_width=True)
+      image_path ="Images/KMeans_3_clusters_après_ACP.png"
+      st.image(image_path, caption="KMeans 3 clusters après ACP", use_column_width=True)
       st.write("**Silhouette score = 0.5365082268991479**")
-      image_path ="Images/K-Means avec 3 clusters et centroides.png"
-      st.image(image_path, caption="K-Means avec 3 clusters et centroides", use_column_width=True)
+      image_path ="Images/KMeans_3_clusters_centroides.png"
+      st.image(image_path, caption="KMeans avec 3 clusters et centroides", use_column_width=True)
       st.write("**Analyse des composantes principales :**")
       st.write("**PC1 : influencée par Salaire_net_moyen, Salaire_net_moyen_heure_employé, and Salaire_net_moyen_heure_cadre**")
       st.write("**PC2 : influencée par le niveau de diplôme**")
@@ -383,21 +383,21 @@ if page == pages[4] :
       # Méthode du coude
       st.write("**Méthode du coude**")
       # Afficher l'image 
-      image_path = "Images/Méthode du coude sans ACP DEP.png" 
+      image_path = "Images/Methode_du_coude_sans_ACP_DEP.png" 
       st.image(image_path, caption="Méthode du coude sans ACP par départements", use_column_width=True)
       st.write("D'après la méthode du coude, le nombre optimal de clusters semble être **3** ou **4**.")
       # Méthode du dendrogramme 
       st.write("**Méthode du dendrogramme**")
       # Afficher l'image 
-      image_path = "Images/Dendrogramme sans ACP DEP.png"  
+      image_path = "Images/Dendrogramme_sans_ACP_DEP.png"  
       st.image(image_path, caption="Méthode du dendrogramme sans ACP par départements", use_column_width=True)
       st.write("D'après la méthode du dendrogramme, le nombre optimal de clusters semble être **3**.")
       # Algorithme des K-Means 
       # Affichage des coordonnées des centroïdes des clusters
       # Afficher l'image 
-      image_path = "Images/Coordonnées centroides sans ACP DEP.png" 
+      image_path = "Images/Coordonnees_centroides_sans_ACP_DEP.png" 
       st.image(image_path, caption="Coordonnées centroides sans ACP paar départements", use_column_width=True)
-      image_path = "Images/Centroides sans ACP DEP.png" 
+      image_path = "Images/Centroides_sans_ACP_DEP.png" 
       st.image(image_path, caption="Clusters avec centroides sans ACP par départements", use_column_width=True)
       # Evaluation de la qualité du clustering
       st.write("**Silhouette Score : 0.5398242144044401**")
@@ -405,33 +405,33 @@ if page == pages[4] :
       st.write("**aTille du cluster 2 : 18**")
       st.write("**Taille du cluster 3 : 3**")
       # Afficher l'image 
-      image_path = "Images/Silhouette Score sans ACP DEP.png" 
+      image_path = "Images/Silhouette_score_sans_ACP_DEP.png" 
       st.image(image_path, caption="Silhouette score sans ACP par départements", use_column_width=True)
       st.write("Nous obtenons un Silhouette score correct (environ 0,54), ce qui montre que les clusters sont plutôt bien définis, avec une importante variabilité dans la taille de ces derniers en termes de nombre de département qu'ils contiennent.")
    
    if option == 'Jeu de données groupé par département avec ACP' :
       st.write("**Analyse par composantes principales**")
       # Afficher l'image 
-      image_path = "Images/Variance expliquée par composantes DEP.png" 
+      image_path = "Images/Variance_expliquee_par_composantes_DEP.png" 
       st.image(image_path, caption='Variance expliquée par composantes principales par départements', use_column_width=True)
       # Méthode du coude
       st.write("**Méthode du coude**")
       # Afficher l'image 
-      image_path = "Images/Méthode du coude avec ACP DEP .png"  
+      image_path = "Images/Methode_du_coude_avec_ACP_DEP.png"  
       st.image(image_path, caption="Méthode du coude après ACP", use_column_width=True)
       st.write("D'après la méthode du coude, le nombre optimal de clusters semble être **2** ou **3**.")
       # Méthode du dendrogramme 
       st.write("**Méthode du dendrogramme**")
       # Afficher l'image 
-      image_path = "Images/Dendrogramme avec ACP DEP.png"  
+      image_path = "Images/Dendrogramme_avec_ACP_DEP.png"  
       st.image(image_path, caption="Méthode du dendrogramme après ACP", use_column_width=True)
       st.write("D'après la méthode du dendrogramme, le nombre optimal de clusters semble être **3**.")
       # Evaluation de la qualité du clustering
-      image_path ="Images/KMeans 3 clusters DEP.png"
+      image_path ="Images/KMeans_3_clusters_DEP.png"
       st.image(image_path, caption="KMens 3 clusters après ACP", use_column_width=True)
       st.write("**Silhouette score = 0.5097185102337607**")
-      image_path ="Images/KMeans 3 clusters et centroides ACP DEP.png"
-      st.image(image_path, caption="K-Means avec 3 clusters et centroides", use_column_width=True)
+      image_path ="Images/KMeans_3_clusters_centroides_ACP_DEP.png"
+      st.image(image_path, caption="KMeans avec 3 clusters et centroides", use_column_width=True)
       st.write("**Analyse des composantes principales :**")
       st.write("**PC1 explique environ 75,5% de la variance totale, tandis PC2 explique environ 10,9% de la variance.**")
       st.write("**PC1 : est influencée majoritairement par les variables suivantes : Salaire_net_moyen_heure_26_50, Salaire_net_moyen_heure_26_50_homme, Salaire_net_moyen, Salaire_net_moyen_heure_26_50_femme, Salaire_net_moyen_homme.**")
